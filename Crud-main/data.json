@@ -1,0 +1,210 @@
+[
+    {
+        "id": 25,
+        "nombre": "Set femenino Diabulus",
+        "categoria": "DEPORTE",
+        "precio": 6000,
+        "stock": 10,
+        "img": "https://www.dragonsports.eu/436497-verylarge_default/legging-mujer-eclipse-negro-phantom-athletics.jpg"
+    },
+    {
+        "id": 38,
+        "nombre": "Chandal - Performance Micro",
+        "categoria": "ROPA",
+        "precio": 2650,
+        "stock": 10,
+        "img": "https://www.dragonsports.eu/440011-verylarge_default/chandal-performance-micro-kwon.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Adidas Super Star White ",
+        "categoria": "CALZADO",
+        "precio": 32500,
+        "stock": 10,
+        "img": "https://images.prom.ua/2660161795_w640_h640_zhenskie-krossovki-adidas.jpg"
+    },
+    {
+        "id": 21,
+        "nombre": "Leggings de compresión",
+        "categoria": "ROPA",
+        "precio": 4600,
+        "stock": 10,
+        "img": "https://www.dragonsports.eu/437041-verylarge_default/leggings-de-compresion-hombre-germany-phantom-athletics.jpg"
+    },
+    {
+        "id": 18,
+        "nombre": "Camiseta de compresión",
+        "categoria": "ROPA",
+        "precio": 3500,
+        "stock": 10,
+        "img": "https://www.dragonsports.eu/333711-verylarge_default/rashguard-mangas-cortas-adits312-adidas.jpg"
+    },
+    {
+        "id": 12,
+        "nombre": "Everlast Box-Black",
+        "categoria": "DEPORTE",
+        "precio": 10300,
+        "stock": 3,
+        "img": "https://www.dragonsports.eu/480861-verylarge_default/zapato-de-boxeo-ingles-ring-bling-everlast.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Remera Optimus-Grey",
+        "categoria": "ROPA",
+        "precio": 2500,
+        "stock": 10,
+        "img": "https://www.dragonsports.eu/480684-verylarge_default/camiseta-deportiva-manga-corta-russel-everlast.jpg"
+    },
+    {
+        "id": 22,
+        "nombre": "remera Termica Hombre",
+        "categoria": "ROPA",
+        "precio": 5500,
+        "stock": 10,
+        "img": "https://www.dragonsports.eu/402971-verylarge_default/rashguard-con-mangas-largas-uncage-el31006-elion.jpg"
+    },
+    {
+        "id": 23,
+        "nombre": "Top deportivo Mujer",
+        "categoria": "ROPA",
+        "precio": 5500,
+        "stock": 10,
+        "img": "https://www.dragonsports.eu/381113-verylarge_default/sujetador-mujeres-amazon-booster.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Remera Diablus-Black",
+        "categoria": "ROPA",
+        "precio": 2300,
+        "stock": 10,
+        "img": "https://www.dragonsports.eu/480682-verylarge_default/camiseta-deportiva-manga-corta-russel-everlast.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Adidas Super Star Street-Dark ",
+        "categoria": "CALZADO",
+        "precio": 32500,
+        "stock": 10,
+        "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/160/313/products/8771a0061-631c8ce92460b61e6815911531365806-640-0.jpeg"
+    },
+    {
+        "id": 4,
+        "nombre": "Remera Diablus-White",
+        "categoria": "ROPA",
+        "precio": 2300,
+        "stock": 10,
+        "img": "https://www.dragonsports.eu/480687-verylarge_default/camiseta-deportiva-manga-corta-russel-everlast.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Sudadera Diablus-Grey",
+        "categoria": "ROPA",
+        "precio": 2300,
+        "stock": 10,
+        "img": "https://www.dragonsports.eu/480605-verylarge_default/sudadera-con-capucha-taylor-everlast.jpg"
+    },
+    {
+        "id": 19,
+        "nombre": "Bolso Everlast",
+        "categoria": "DEPORTE",
+        "precio": 2000,
+        "stock": 3,
+        "img": "https://www.dragonsports.eu/401302-verylarge_default/bolsa-de-deporte-duffle-contender-hybrid-723851-everlast.jpg"
+    },
+    {
+        "id": 26,
+        "nombre": "Calzas Gimnasia Mujer",
+        "categoria": "DEPORTE",
+        "precio": 3000,
+        "stock": 3,
+        "img": "https://www.dragonsports.eu/436491-verylarge_default/legging-mujer-eclipse-negro-phantom-athletics.jpg"
+    },
+    {
+        "id": 24,
+        "nombre": "Camiseta sin mangas Optimus",
+        "categoria": "DEPORTE",
+        "precio": 2500,
+        "stock": 10,
+        "img": "https://www.dragonsports.eu/441211-verylarge_default/camiseta-deportiva-sin-mangas-mujer-fightnature.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Adidas Super Star stardust",
+        "categoria": "CALZADO",
+        "precio": 28500,
+        "stock": 10,
+        "img": "https://sneakernews.com/wp-content/uploads/2022/11/BAPE-adidas-Superstar-AW22-11.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Adidas Super Star W-Colors",
+        "categoria": "CALZADO",
+        "precio": 32500,
+        "stock": 10,
+        "img": "https://cdn.shopify.com/s/files/1/0099/3335/7152/products/p-fx6037-1-67e5c6f1-cf37-478e-9bcd-44f7f93ce7bb_5000x.jpg?v=1620426088"
+    },
+    {
+        "id": 15,
+        "nombre": "Colchoneta Everlast",
+        "categoria": "DEPORTE",
+        "precio": 2500,
+        "stock": 5,
+        "img": "https://www.dragonsports.eu/401621-verylarge_default/alfombra-deportiva-pro-sklz.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Adidas Super Star Pink ",
+        "categoria": "CALZADO",
+        "precio": 30000,
+        "stock": 10,
+        "img": "https://home.ripley.com.pe/Attachment/WOP_5/2026233439552/2026233439552_2.jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "Everlast Set Box-Blue ",
+        "categoria": "DEPORTE",
+        "precio": 10300,
+        "stock": 3,
+        "img": "https://http2.mlstatic.com/D_NQ_NP_2X_892382-MLA42304420086_062020-F.webp"
+    },
+    {
+        "id": 13,
+        "nombre": "Pack Everlast Box Femenino",
+        "categoria": "DEPORTE",
+        "precio": 30500,
+        "stock": 3,
+        "img": "https://www.dragonsports.eu/421191-verylarge_default/pack-negro-y-fucsia-metal-boxe.jpg"
+    },
+    {
+        "id": 14,
+        "nombre": "Pack Everlast",
+        "categoria": "DEPORTE",
+        "precio": 1200,
+        "stock": 4,
+        "img": "https://www.dragonsports.eu/421121-verylarge_default/pack-oko-metal-boxe.jpg"
+    },
+    {
+        "id": 16,
+        "nombre": "Pack Bandas",
+        "categoria": "DEPORTE",
+        "precio": 5000,
+        "stock": 3,
+        "img": "https://www.dragonsports.eu/524701-verylarge_default/banda-de-resistencia-silicona.jpg"
+    },
+    {
+        "id": 17,
+        "nombre": "Pack Pesas",
+        "categoria": "DEPORTE",
+        "precio": 15300,
+        "stock": 3,
+        "img": "https://www.dragonsports.eu/362791-verylarge_default/kettlebell-4-16-kg-kwon.jpg"
+    },
+    {
+        "id": 20,
+        "nombre": "Envolturas de manos Adidas",
+        "categoria": "DEPORTE",
+        "precio": 2000,
+        "stock": 3,
+        "img": "https://www.dragonsports.eu/312131-verylarge_default/envoltura-de-manos-adibp03c-adidas.jpg"
+    }
+]

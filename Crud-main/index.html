@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./css/index.css">
+
+    <title>CRUD Codo a Codo</title>
+</head>
+
+<body>
+    <nav id="nav-bar"></nav>
+    <main>
+        <div id="app" class="container"><br><br>
+
+            <a class="btn btn-primary" href="newProduct.html">Nuevo Producto</a>
+            <br><br>
+            <div v-if="error">
+                <p>Lo sentimos , ........</p>
+            </div>
+            <div v-else>
+                <section v-if="cargando">
+                    <div class="spinner-border"></div>
+                    <p>Cargando .....</p>
+                </section>
+                <section v-else>
+                    <div class="contenedor">
+                        <div v-for="producto in products">
+                            <div class="tarjetabody">
+                                <div class="div-img">
+                                    <img class="thumbnail" v-bind:src="producto.imagen" style="object-fit:contain;">
+                                </div>
+                                <div class="box-element product">
+                                    <h6><strong class="productName">{{producto.nombre}}</strong></h6>
+                                    <h6 class="precio">Price:<strong class="numPrecio"> &nbsp;&nbsp;&nbsp;$
+                                            {{producto.precio.toFixed(2)}}</strong></h6>
+                                    <hr>
+                                    <a class="btn btn-outline-success botonActualizar"
+                                        :href="'updateProduct.html?id='+ producto.id+'&nombre=' +producto.nombre+ '&precio='+producto.precio+'&stock='+producto.stock +  '&imagen='+producto.img">Update</a>
+                                    <button type="button" class="btn btn-outline-danger add-btn update-cart"
+                                        v-on:click="eliminar(producto.id)">Delete</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+    </main>
+
+
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+    <!-- tosty SweetAlert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- Vue -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- js -->
+    <script src="./js/navbar.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
